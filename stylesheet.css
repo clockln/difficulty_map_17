@@ -1,0 +1,98 @@
+*{
+  font-family: 'M PLUS Rounded 1c';
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  touch-action: manipulation;
+}
+
+body{
+  font-family: 'M PLUS Rounded 1c',
+    "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    "BIZ UDPGothic",
+    Meiryo,
+    sans-serif;
+    position: relative;
+}
+
+p{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+img{
+  white-space: pre;
+  border: 2px solid;
+  vertical-align: middle;
+  filter: opacity(30%);
+}
+
+#header_bar{
+  display: flex;
+  position: fixed;
+  margin-top: 0;
+  border-bottom: 1px solid;
+  height: 40px;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+#nav-menu{
+  position: fixed;
+  z-index: 20;
+  top: 47px;
+  right: -100%;
+  width: 80%;
+  height: 100vh;
+  background-color: #fff;
+  border-left: solid 1px #ddd;
+  transition: all 0.5s ease-out;
+}
+#nav-menu.nav-menu-open {
+  right: 0;
+}
+
+textarea{
+  resize: none;
+  width: calc(100% - 40px);
+  height: 95%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#maincontainer{
+  padding-left: 5px;
+  padding-top: 50px;
+}
+
+.EXH{
+  border-color: tomato;
+}
+.INF{
+  border-color: purple;
+}
+.GRV{
+  border-color: orange;
+}
+.HVN{
+  border-color: cyan;
+}
+.VVD{
+  border-color: pink;
+}
+.MXM{
+  border-color: azure;
+}
+.other{
+  border-color: black;
+}
+
+.EXHQ,.INFQ,.GRVQ,.HVNQ,.VVDQ,.MXMQ{
+  border-color: black;
+}
