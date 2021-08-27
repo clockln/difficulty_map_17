@@ -20,16 +20,15 @@ body{
     position: relative;
 }
 
-p{
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-}
-
 img{
   white-space: pre;
   border: 2px solid;
   vertical-align: middle;
-  filter: opacity(30%);
+}
+
+p{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
 #header_bar{
@@ -42,19 +41,26 @@ img{
   background-color: aliceblue;
 }
 
-#nav-menu{
-  position: fixed;
-  z-index: 20;
-  top: 47px;
-  right: -100%;
-  width: 80%;
-  height: 100vh;
-  background-color: #fff;
-  border-left: solid 1px #ddd;
-  transition: all 0.5s ease-out;
-}
-#nav-menu.nav-menu-open {
+#menu{
+  background: #0bd;
+  position: absolute;
+  z-index: 1;
+  top: 3.125rem;
   right: 0;
+  overflow-x: hidden;
+  text-align: center;
+  width: 0; 
+}
+
+.menu_open{
+  width: 100%;
+}
+
+#menubutton_open{
+  width: 40px;
+  height: 100%;
+  font-size: 2em;
+  margin-top: 4px;
 }
 
 textarea{
@@ -69,6 +75,16 @@ textarea{
 #maincontainer{
   padding-left: 5px;
   padding-top: 50px;
+}
+
+.test0{
+  border-color: red;
+}
+.test1{
+  border-color: pink;
+}
+.test2{
+  border-color: purple;
 }
 
 .EXH{
